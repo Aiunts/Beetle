@@ -1,2 +1,2 @@
-# beetle.github.io
+# aiunts.github.io/Beetle
 Beetle Landing Page
