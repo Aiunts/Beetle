@@ -106,23 +106,3 @@ const checkQuotePoint = () => {
 
 	 quoteSliderPoints[Math.abs(quotePosition / quoteItemWidth)].classList.add("active");
 };
-
-
-//Fullscreen Background 
-const fullscreen = document.querySelector(".fullscreen");
-let url = [
-	'#00d169',
-	'#ff605f',
-	'url("../../img/intro.jpg")',
-];
-const numberOfUrl = url.length;
-let i = 0;
-
-setInterval(() => {
-	if(i === numberOfUrl){
-		i = 0;
-	}
-	fullscreen.style.background = `${url[i]} no-repeat center`;
-	fullscreen.style.backgroundSize = "cover";
-	i++;
-}, 10000);
