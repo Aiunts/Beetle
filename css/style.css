@@ -94,10 +94,9 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: url("../../img/intro.jpg") center no-repeat;
+  background: url("../img/intro.jpg") center no-repeat;
   background-size: cover;
   position: relative;
-  transition: 2s;
 }
 
 .section {
@@ -117,7 +116,7 @@ body {
 }
 
 .section--map {
-  background: url(../../img/map.jpg) center no-repeat;
+  background: url(../img/map.jpg) center no-repeat;
   background-size: cover;
   padding: 0;
 }
@@ -963,14 +962,14 @@ body {
   max-width: 300px;
   width: 100%;
   padding-left: 55px;
-  background: url(../../img/form-icon1.png) #fff no-repeat 18px 18px;
+  background: url(../img/form-icon1.png) #fff no-repeat 18px 18px;
 }
 
 .email {
   max-width: 300px;
   width: 100%;
   padding-left: 55px;
-  background: url(../../img/form-icon2.png) #fff no-repeat 18px 18px;
+  background: url(../img/form-icon2.png) #fff no-repeat 18px 18px;
 }
 
 .budget {
